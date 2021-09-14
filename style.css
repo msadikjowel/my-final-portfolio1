@@ -304,7 +304,7 @@ header .navbar ul li a:hover{
 .portfolio .box-container .box img{
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit:fill;
 }
 
 .portfolio .box-container .box:hover img{
@@ -446,9 +446,9 @@ header .navbar ul li a:hover{
         width: 100%;
     }
 
-    .portfolio .box-container .box{
+    /* .portfolio .box-container .box{
         width: 100%;
-    }
+    } */
 
     .contact .row form{
         margin: 3rem;
